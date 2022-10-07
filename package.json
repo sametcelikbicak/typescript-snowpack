@@ -1,0 +1,22 @@
+{
+  "name": "typescript-snowpack",
+  "version": "0.0.1",
+  "description": "This is template repository for creating new app using HTML & CSS & TypeScript with Snowpack bundler.",
+  "scripts": {
+    "dev": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "devDependencies": {
+    "@snowpack/plugin-typescript": "^1.2.1",
+    "@types/snowpack-env": "^2.3.3",
+    "snowpack": "^3.3.7",
+    "typescript": "^4.2.4"
+  },
+  "keywords": [
+    "typescript",
+    "snowpack",
+    "html",
+    "css"
+  ],
+  "license": "MIT"
+}
