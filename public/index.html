@@ -2,12 +2,27 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" type="image/svg+xml" href="/typescript.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="/index.css" />
-    <title>HTML & CSS & TypeScript</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>TypeScript & Snowpack</title>
   </head>
   <body>
-    <script type="module" src="/dist/index.js"></script>
+    <div class="container">
+      <img src="/html.svg" class="logo" alt="HTML logo" />
+      <img src="/css.svg" class="logo" alt="CSS logo" />
+      <img src="/typescript.svg" class="logo" alt="TypeScript logo" />
+      <img src="/snowpack.svg" class="logo" alt="Snowpack logo" />
+
+      <h1>TypeScript & Snowpack</h1>
+      <div class="card">
+        <button id="counter" type="button"></button>
+      </div>
+      <p class="read-the-docs">
+        This is template repository for creating new app using HTML & CSS &
+        TypeScript with Snowpack bundler.
+      </p>
+    </div>
+    <script type="module" src="/dist/main.js"></script>
   </body>
 </html>
